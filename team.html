@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Our Team | VK&S Chartered Accountants</title>
+<meta name="description" content="VK&S Chartered Accountants, Nagpur">
+<link rel="stylesheet" href="style.css">
+<script src="config.js" defer></script>
+<script src="nav.js" defer></script>
+</head>
+<body>
+<div class="page-hdr"><div class="wrap page-hdr-in"><h1>Our Founding Partners</h1><div class="breadcrumb"><a href="index.html">Home</a><span>›</span>Our Founding Partners</div></div></div>
+<style>
+.partner-card{background:#fff;border:1px solid var(--bdr);border-radius:var(--r2);overflow:hidden;box-shadow:var(--s2);display:grid;grid-template-columns:260px 1fr;transition:all .3s}
+.partner-card:hover{box-shadow:var(--s4);transform:translateY(-3px)}
+.partner-photo{min-height:360px;height:100%;background:linear-gradient(135deg,var(--grey),var(--grey2));position:relative;overflow:hidden}
+.partner-photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:top center}
+.partner-photo img.hide{display:none}
+.partner-photo .partner-av-fb{width:80px;height:80px;border-radius:50%;background:var(--navy);display:flex;align-items:center;justify-content:center;font-family:var(--font-display);font-size:1.6rem;font-weight:700;color:#c8d8ee;position:relative;z-index:1;display:none}
+.partner-photo img.hide ~ .partner-av-fb{display:flex}
+.partner-body{padding:28px}
+.partner-name{font-family:var(--font-display);font-size:1.35rem;font-weight:700;color:var(--navy);margin-bottom:4px}
+.partner-role{font-size:.7rem;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:var(--red);margin-bottom:16px;padding-bottom:14px;border-bottom:1px solid var(--bdr)}
+.exp-tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:14px}
+.exp-tag{padding:3px 10px;border-radius:100px;background:var(--off);border:1px solid var(--bdr);font-size:.71rem;font-weight:600;color:var(--txt2)}
+@media(max-width:768px){.partner-card{grid-template-columns:1fr}.partner-photo{min-height:260px}}
+</style>
+<section class="section" style="background:var(--off)"><div class="wrap">
+  <div class="tc rv" style="margin-bottom:44px">
+    <span class="eyebrow">Leadership</span><h2 class="sh">The People Behind <span>VK&amp;S</span></h2><div class="rule c"></div>
+    <p class="lead-txt">Three founding partners. Three decades of combined expertise. One firm built on trust, precision and proactive service.</p>
+  </div>
+  <div style="display:flex;flex-direction:column;gap:24px">
+    <div class="partner-card rv d1"><div class="partner-photo"><img src="varun.jpg" alt="CA Varun Vijaywargi" onerror="this.classList.add('hide')"><div class="partner-av-fb">VV</div></div><div class="partner-body"><div class="partner-name">CA Varun Vijaywargi</div><div class="partner-role">Founder Partner — Indirect Taxes</div><p class="body-p">CA Varun Vijaywargi leads the Indirect Tax practice at VK&amp;S. With over 12 years of experience, he specialises in GST advisory, compliance, and litigation — advising businesses across manufacturing, trading, and service sectors.</p><p class="body-p">He has handled complex indirect tax matters including advance rulings, GST audits, and representation before GST authorities and appellate tribunals.</p><div class="exp-tags"><span class="exp-tag">GST Advisory</span><span class="exp-tag">GST Litigation</span><span class="exp-tag">Customs</span><span class="exp-tag">Service Tax</span><span class="exp-tag">Advance Rulings</span></div></div></div>
+    <div class="partner-card rv d2"><div class="partner-photo"><img src="pavan.jpg" alt="CA Pavan Khabiya" onerror="this.classList.add('hide')"><div class="partner-av-fb">PK</div></div><div class="partner-body"><div class="partner-name">CA Pavan Khabiya</div><div class="partner-role">Founder Partner — Audit &amp; Direct Taxes</div><p class="body-p">CA Pavan Khabiya leads the Audit &amp; Assurance and Direct Tax practices. He brings extensive experience in statutory audits of listed entities, internal audits, due diligence reviews and complex direct tax advisory.</p><p class="body-p">His expertise spans corporate tax planning, international taxation, transfer pricing and assessment proceedings — with strong representation before CIT(A), ITAT, and High Courts.</p><div class="exp-tags"><span class="exp-tag">Statutory Audits</span><span class="exp-tag">Direct Tax Planning</span><span class="exp-tag">Transfer Pricing</span><span class="exp-tag">International Tax</span><span class="exp-tag">Tax Litigation</span></div></div></div>
+    <div class="partner-card rv d3"><div class="partner-photo"><img src="Ashish.jpg" alt="CA Ashish Saoji" onerror="this.classList.add('hide')"><div class="partner-av-fb">AS</div></div><div class="partner-body"><div class="partner-name">CA Ashish Saoji</div><div class="partner-role">Founder Partner — Banking, Ratings &amp; Insolvency</div><p class="body-p">CA Ashish Saoji is a Registered Insolvency Professional with IBBI, leading the Debt Syndication, Credit Rating Advisory, and Insolvency &amp; Bankruptcy practice. He advises banks, financial institutions and corporate clients on structured financing and IBC proceedings.</p><p class="body-p">He has acted as IRP and RP in multiple CIRP proceedings, handled liquidation matters and advised creditors and resolution applicants across various sectors.</p><div class="exp-tags"><span class="exp-tag">IBBI Registered IP</span><span class="exp-tag">Debt Syndication</span><span class="exp-tag">IBC / CIRP</span><span class="exp-tag">Credit Ratings</span><span class="exp-tag">Bank Finance</span></div></div></div>
+  </div>
+  <div class="tc" style="margin-top:44px">
+    <h2 class="sh" style="margin-bottom:10px">Ready to Work with <span>VK&amp;S</span>?</h2>
+    <div class="rule c"></div>
+    <p class="lead-txt" style="margin-bottom:24px">Our partners are directly involved in client engagements — you get expert attention, not junior staff.</p>
+    <a href="contact.html" class="btn btn-red btn-lg">Get In Touch</a>
+  </div>
+</div></section><script src="shared.js" defer></script>
+</body></html>
